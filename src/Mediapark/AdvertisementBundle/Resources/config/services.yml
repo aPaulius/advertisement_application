@@ -1,0 +1,4 @@
+services:
+#    mediapark_advertisement.example:
+#        class: Mediapark\AdvertisementBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]

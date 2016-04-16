@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block content %}
+
+    <h1 class="text-center page-title">MY ADVERTISEMENTS</h1>
+
+    <div class="container advertisements">
+        {% if advertisements is empty %}
+            <h2 class="text-center ">You don't have any advertisements.</h2>
+        {% else %}
+            {% for advertisement in advertisements %}
+                {% include 'advertisement/advertisement.html.twig' %}
+            {% endfor %}
+        {% endif %}
+    </div>
+
+{% endblock %}

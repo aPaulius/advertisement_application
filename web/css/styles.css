@@ -1,0 +1,117 @@
+
+
+/********************************
+ TYPOGRAPHY
+********************************/
+
+
+h1 {
+    font-size: 1.4em;
+    color: #8C6DB0;
+}
+
+h2, h3 {
+    font-size: 1.25em;
+    color: #8C6DB0;
+    margin-bottom: 16px;
+}
+
+h5 {
+    color: #5f5D60;
+    margin-top: -10px;
+}
+
+p {
+    color: #5f5D60;
+    line-height: 1.7;
+    font-size: 1em;
+    font-weight: 200;
+}
+
+/********************************
+ ALIGN & BORDERS
+********************************/
+
+.advertisements {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.align-div {
+    width: 90%;
+    margin: 0 auto;
+    text-align: justify;
+    /*border-bottom: 1px solid #8C6DB0;*/
+}
+
+.form-signing,
+.form-align,
+.form-title,
+.form-description,
+.form-button {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.form-control {
+    height: 50px;
+}
+
+.page-title {
+    margin-top: 40px;
+}
+
+#fos_user_registration_form_email,
+#fos_user_registration_form_username,
+#fos_user_registration_form_plainPassword_first,
+#fos_user_registration_form_plainPassword_second {
+    height: 50px;
+    width: 100%;
+}
+
+#fos_user_registration_form label {
+    display: block;
+}
+
+/********************************
+ COLORS
+********************************/
+
+.application-title:hover {
+    color: #8C6DB0;
+    text-decoration: none;
+}
+
+.navbar-button:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+
+/********************************
+ MEDIA QUERIES
+********************************/
+@media screen and (max-width: 770px) {
+    .navbar-brand {
+        display:block;
+        width:100%;
+        text-align: center;
+    }
+
+    li .nav-button  {
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    h1 {
+        font-size: 1.2em;
+    }
+
+    .form-signing,
+    .form-align,
+    .form-title,
+    .form-description,
+    .form-button {
+        width: 80%;
+        margin: 0 auto;
+    }
+}

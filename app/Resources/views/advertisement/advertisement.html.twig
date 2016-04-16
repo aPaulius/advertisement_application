@@ -1,0 +1,16 @@
+<div class="row feature align-div">
+    <div class="col-xs-12">
+        <ul class="list-group">
+        <li class="list-group-item">
+            <h2 class="">
+                {{ advertisement.title }}
+                <br>
+                <h5>{{ advertisement.user.username }} at
+                    {{ advertisement.postingDate|date('Y-m-d') }}
+                </h5>
+            </h2>
+        </li>
+        <li class="list-group-item"><p class="">{{ advertisement.description }}</p></li>
+    </ul>
+    </div>
+</div>
